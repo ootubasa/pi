@@ -37,4 +37,8 @@
         ``` sh
         gcc test-mpfr.c -lmpfr -lbmp
         ./a.out
+
         ```
+3. 円周率を求めてみる
+    1. アルキメデス
+    $$a_0=3,b_0=2\sqrt(3)$$

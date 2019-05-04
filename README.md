@@ -44,5 +44,5 @@
     ``` math
     a_0=3,b_0=2\sqrt(3)
     b_(n+1)=2 a_n b_n /(a_n + b_n)
-    a_n=\sqrt(a_n b_n)
+    a_n=\sqrt(a_(n+1) b_n)
     ```

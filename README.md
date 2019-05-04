@@ -37,12 +37,17 @@
         ``` sh
         gcc test-mpfr.c -lmpfr -lbmp
         ./a.out
-
         ```
+
 3. 円周率を求めてみる
     1. アルキメデス
+
     ``` math
-    a_0=3,b_0=2\sqrt{3}
-    b_{n+1}=\frac{2 a_n b_n}{a_n + b_n}
-    a_n=\sqrt{a_{n+1} b_n}
+    a_0=2\sqrt{33,b_0=3
+    a_{n+1}=\frac{2 a_n b_n}{a_n + b_n}
+    b_{n+1}=\sqrt{a_{n+1} b_n}
     ```
+
+    ![a_0,b_0](https://latex.codecogs.com/gif.latex?a_0=2\sqrt{3},b_0=3)
+
+    ![a_{n+1},b_{n+1}](https://latex.codecogs.com/gif.latex?a_{n&plus;1}=\frac{2&space;a_n&space;b_n}{a_n&space;&plus;&space;b_n},&space;b_{n&plus;1}=\sqrt{a_{n&plus;1}&space;b_n})

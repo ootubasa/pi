@@ -48,6 +48,8 @@
     b_{n+1}=\sqrt{a_{n+1} b_n}
     ```
 
+    <img src="https://latex.codecogs.com/gif.latex?a_0=2\sqrt{3},b_0=3">
+
     ![a_0,b_0](https://latex.codecogs.com/gif.latex?a_0=2\sqrt{3},b_0=3)
 
     ![a_{n+1},b_{n+1}](https://latex.codecogs.com/gif.latex?a_{n&plus;1}=\frac{2&space;a_n&space;b_n}{a_n&space;&plus;&space;b_n},&space;b_{n&plus;1}=\sqrt{a_{n&plus;1}&space;b_n})

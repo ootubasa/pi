@@ -22,7 +22,19 @@ int main(void)
     mpfr_sqrt_ui(a, 12, MPFR_RNDD);
     mpfr_mul(sum, sum, a, MPFR_RNDD);
 
-    mpfr_printf("pi = %.1024Rf \n", sum);
+    mpfr_printf("sum = %.1024Rf \n", sum);
 
+    mpfr_t PI;
+    mpfr_init2(PI, 1024 * 4);
+    mpfr_const_pi(PI, MPFR_RNDD);
+
+    mpfr_sub(sum, sum, PI, MPFR_RNDD);
+    mpfr_printf("sum-PI = %.256Re \n", sum);
+
+    mpfr_clear(PI);
+
+
+    mpfr_clear(a);
+    mpfr_clear(sum);
     mpfr_free_cache();
 }

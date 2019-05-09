@@ -21,7 +21,6 @@
    - [Ubuntu に gcc4.2 をソースからインストール](http://d.hatena.ne.jp/seinzumtode/20140730/1406702305)
 
    ```sh
-   sudo apt install libgmp-dev
    sudo apt install libmpfr-dev
    ```
 
